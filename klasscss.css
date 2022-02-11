@@ -1,0 +1,44 @@
+* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: inter;
+}
+.header {
+  padding: 37px 120px 35px;
+}
+.logo,
+.menu,
+button,
+.menu-item {
+  display: inline-block;
+}
+.menu {
+  width: 70%;
+  text-align: center;
+}
+
+.button,
+.logo {
+  width: 14%;
+}
+.menu-item {
+  margin-right: 20px;
+}
+.menu-item:last-child {
+  margin-right: 0;
+}
+.button {
+  font-family: inherit;
+  border: none;
+  background: #0e1734;
+  padding: 14px 15px;
+  color: white;
+  border-radius: 4px;
+}
+.logo {
+  font-size: 32px;
+  font-weigh: bold;
+}
